@@ -1,0 +1,57 @@
+body {
+    background-color: #080404; /* Updated background color */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header img {
+    width: 30%; /* Adjust the width to make the image smaller */
+    height: auto; /* Height will scale automatically */
+    display: block; /* Use block to apply margin auto */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; /* Center the image horizontally */
+}
+
+header img {
+    width: 50%;
+    height: auto;
+}
+
+.gif-container {
+    text-align: center;
+}
+
+.stream-announcement {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.soundcloud-link {
+    display: block;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000; /* Footer background color to match the body */
+}
+
+.footer-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
